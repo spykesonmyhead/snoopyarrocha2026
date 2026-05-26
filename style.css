@@ -1,0 +1,15 @@
+h1{
+    color: brown;
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    color: rgb(189, 107, 107);
+    text-align: center;
+}
+body{
+    background-color: rgb(211, 213, 172);
+}
+img{
+    width: 600px;
+}
