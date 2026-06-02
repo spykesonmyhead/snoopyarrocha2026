@@ -8,8 +8,24 @@ h2{
     text-align: center;
 }
 body{
-    background-color: rgb(211, 213, 172);
+   background-image: url("https://i.pinimg.com/originals/d1/57/bb/d157bb17b92ed189dfa61d87fb02290c.gif")
+   background-size: 250px;
 }
+ 
 img{
-    width: 600px;
+    width: 250px            
+}
+footer {
+    background-color: rgb(202, 185, 33);
+}
+.Imagem {
+    text-align: center;
+    background-color: rgba(181, 184, 32, 0.884);
+    width:400px;
+    margin:auto;
+    border-style: groove;
+    border-radius: 45px;
+    margin-bottom: 50px;
+    border-color: brown;
+
 }
