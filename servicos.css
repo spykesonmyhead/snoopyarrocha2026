@@ -1,0 +1,18 @@
+header{
+background-color: aqua;
+padding: 22px 0;
+}
+
+nav li{ 
+    display: inline; 
+    margin: 0 0 0 15px;
+}   /*estara  em formado de linha*/
+
+nav a{
+text-transform: uppercase;
+color: black;
+font-weight: bold;
+font-size: 22px;
+text-decoration: none;
+
+}
