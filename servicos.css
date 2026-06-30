@@ -1,18 +1,28 @@
 header{
 background-color: aqua;
-padding: 22px 0;
+padding: 30px 15px;
 }
 
-nav li{ 
-    display: inline; 
-    margin: 0 0 0 15px;
-}   /*estara  em formado de linha*/
+nav{ 
+    position: absolute; 
+    top: 50px;
+    right: 0%;
+}   
+nav li{
+display: inline;
+margin: 0 0 0 15px;
+}/*estara em formado de linha*/
+
 
 nav a{
-text-transform: uppercase;
-color: black;
-font-weight: bold;
-font-size: 22px;
 text-decoration: none;
+}
 
+.caixa{
+    position: relative;
+    width: 400px ;
+    margin: 0 auto;
+}
+H1{
+    font-size: 100px;
 }
