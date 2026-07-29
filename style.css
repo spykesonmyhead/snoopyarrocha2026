@@ -1,17 +1,17 @@
 h1{
-    color: brown;
+    color: #1f1f1f;
     font-size: 50px;
     text-align: center;
-    background-color: blue;
+    background-color: #f8f8f6c2;
 }
 h2{
-    color: rgb(189, 107, 107);
+    color: #1f1f1f;
     font-size: 50px;
     text-align: center;
 }
 body{
-   background-image: url(https://i.pinimg.com/originals/d1/57/bb/d157bb17b92ed189dfa61d87fb02290c.gif);
-   color: blueviolet;
+   background-image: url("file:///home/spyker/Downloads/ChatGPT%20Image%2028%20de%20jul.%20de%202026,%2009_38_32.png");
+   color: #c62828;
    background-size: cover;
 }
  

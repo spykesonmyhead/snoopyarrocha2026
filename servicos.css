@@ -1,28 +1,31 @@
 header{
-background-color: aqua;
-padding: 30px 15px;
+background-color: #121312;
+padding: 25px 0;
 }
 
-nav{ 
-    position: absolute; 
-    top: 50px;
-    right: 0%;
-}   
-nav li{
-display: inline;
-margin: 0 0 0 15px;
-}/*estara em formado de linha*/
-
+nav li{ 
+    display: inline; 
+    margin: 0 0 0 15px;
+}   /*estara  em formato de linha*/
 
 nav a{
+text-transform: uppercase;
+color: black;
+font-weight: bold;
+font-size: 22px;
 text-decoration: none;
-}
 
+}
 .caixa{
     position: relative;
-    width: 400px ;
+    width: 940px;
+    height: 140px;
     margin: 0 auto;
 }
-H1{
-    font-size: 100px;
+h1{
+    font-size: 50px;
+}
+h1 img{
+    width: 150px;
+    left: 100px;
 }
