@@ -11,7 +11,7 @@ h2{
 }
 body{
    background-image: url("file:///home/spyker/Downloads/ChatGPT%20Image%2028%20de%20jul.%20de%202026,%2009_38_32.png");
-   color: #c62828;
+   color: #141414;
    background-size: cover;
 }
  
@@ -21,7 +21,7 @@ img{
 footer {
     background-color: rgba(88, 88, 88, 0.568);
     text-align: center;
-    font-size: 19px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
 }
 .Imagem {
@@ -32,5 +32,5 @@ footer {
     border-style: groove;
     border-radius: 45px;
     margin-bottom: 50px;
-    border-color: brown;
+    border-color: rgb(51, 14, 14);
 }

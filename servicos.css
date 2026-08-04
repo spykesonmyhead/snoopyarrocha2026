@@ -3,6 +3,13 @@ background-color: #121312;
 padding: 25px 0;
 }
 
+nav{
+    position: absolute;
+    top: 50px;
+    right: -180px;
+    font-size: 30px;
+}
+
 nav li{ 
     display: inline; 
     margin: 0 0 0 15px;
@@ -10,7 +17,7 @@ nav li{
 
 nav a{
 text-transform: uppercase;
-color: black;
+color: rgb(255, 255, 247);
 font-weight: bold;
 font-size: 22px;
 text-decoration: none;
@@ -22,10 +29,36 @@ text-decoration: none;
     height: 140px;
     margin: 0 auto;
 }
+
 h1{
     font-size: 50px;
 }
 h1 img{
-    width: 150px;
-    left: 100px;
+    position: absolute;
+    width: 160px;
+    top: -10px;
+    left: -350px;
+}
+h2{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.servicos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+.servicos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1,5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+.servicos img{
+    width: 200px;
 }
