@@ -2,30 +2,27 @@ header{
 background-color: #121312;
 padding: 25px 0;
 }
-
 nav{
     position: absolute;
     top: 50px;
     right: -180px;
     font-size: 30px;
 }
-
 nav li{ 
     display: inline; 
     margin: 0 0 0 15px;
 }   /*estara  em formato de linha*/
-
 nav a{
 text-transform: uppercase;
 color: rgb(255, 255, 247);
 font-weight: bold;
 font-size: 22px;
 text-decoration: none;
-
 }
+
 .caixa{
     position: relative;
-    width: 940px;
+    width: 1000px;
     height: 140px;
     margin: 0 auto;
 }
@@ -45,11 +42,12 @@ h2{
 }
 
 .servicos{
-    width: 940px;
+    width: 1000px;
     margin: 0 auto;
     padding: 50px 0;
     
 }
+
 .servicos li{
     display: inline-block;
     text-align: center;
@@ -58,7 +56,27 @@ h2{
     margin: 0 1,5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 2px solid black;    /*borda*/
+    border-radius: 10px;          /*curvatura da borda*/
 }
+
 .servicos img{
-    width: 200px;
+    width: 236px;  /*tamnho da img*/
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.servicos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descricao{
+    font-size: 18px;
+}
+
+.preco{
+    font-size: 22px;
+    font-weight: bold;   /*negrito*/
+    margin-top: 10px;   /*distância do top*/
 }
