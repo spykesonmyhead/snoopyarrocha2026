@@ -1,4 +1,44 @@
-<a href="index.html">"voltar"</a>
-<h1>contatos</h1>
-<h2>barbearia Snoopy</h2>
-<br> <br> <b>+55 41 90042-6769</b>
+<!DOCTYPE html> <!--informar qual é o documento-->
+<html lang="pt-br"> <!--linguagem do site-->
+    <head>
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial scale=1.8">
+        <title>CONTATOS</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img class="logo" src="LOGO.png" alt=""></h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">INÍCIO</a></li>
+                        <li><a href="servicos.html">SERVIÇOS</a></li>
+                        <li><a href="contatos.html">CONTATOS</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome">   <!--inserir caixa de texto/id eve ser mesmo q for-->
+                <br>
+                <label for="email">E-mail</label>
+                <input type="text" id="email">
+                <br>
+                <label for="telefone">Telefone celular</label>
+                <input type="text" id="telefone">
+                <input type="submit" value="Enviar formulário">  <!--botáo de enviar-->
+            </form>
+        </main>
+         <footer>
+            <img src="LOGO.png" alt="">
+            <p class="copyright">Copyright &#169; Maria & Yuri// Linda e Fedido</p>
+        </footer>
+    </body>
+</html>
