@@ -107,7 +107,19 @@ footer{
 footer img{
     width: 50px;
 }
-
+.local h1{
+    color: #1f1f1f;
+    font-size: 55px;
+    text-align: center;
+    margin: 15px 0 0;
+}
+.local h2{
+    color: #1f1f1f;
+    font-size: 30px;
+    text-align: center;
+    background-color: #f8f8f6c2;
+    margin: 15px 0 15px;
+}
 .copyright{
     color: #F5E9D3;
     font-size: 13px;
@@ -123,49 +135,59 @@ form{
 form label, form p{
     display: block;
     font-size: 20px;
-    margin:0 0 10px;
+    margin: 0 0 10px;
 }
-.imput-padrao{
+.input-padrao{
     display: block;
-    margin:0 0 20px;
+    margin: 0 0 20px;
     padding: 5px 25px;
-    width:40%;
+    width: 40%;
 }
-.checkbox {
+.checkbox{
     margin: 20px 0;
 }
-.enviar {
+.enviar{
     width: 40%;
     padding: 15px 0;
-    background-color: goldenrod;
-    color:white;
+    background-color: #ff2929;
+    color: white;
     font-weight: bold;
     font-size: 18px;
     border: none;
     border-radius: 10px;
     transition: 1s all;
-    cursor:pointer;
-    animation: ;
+    cursor: pointer;
+    animation: rotate 3s linear infinite;
 }
-.enviar:hover {
-    background-color: rgb(252, 61, 61);
-    transform:scale(1.2);     
+.enviar:hover{
+    background-color: #b02525;
+    transform: scale(1.2);
 }
 
     @keyframes rotate{
         0%{
             transform: rotate(0deg);
-            border-style: solid;
+            border-style: dashed;
+            border-color: #b02525;
+        }
+        25%{
+            transform: rotate(3deg);
+            border-style: dotted;
             border-color: #b02525;
         }
         50%{
-            transform: rotate(20deg);
-            border-style: solid;
+            transform: rotate(0deg);
+            border-style: dashed;
+            border-color: #b02525;
+        }
+        75%{
+            transform: rotate(-3deg);
+            border-style: dotted;
             border-color: #b02525;
         }
         100%{
             transform: rotate(0deg);
-            border-style: solid;
+            border-style: dashed;
             border-color: #b02525;
         }
     }
