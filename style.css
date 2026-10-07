@@ -1,3 +1,23 @@
+.local h1{
+    color: #1f1f1f;
+    font-size: 50px;
+    text-align: center;
+    background-color: #f8f8f6c2;
+}
+.local img{
+    width: 1100px;
+    text-align: center;
+}
+.mapa{
+    text-align: center;
+}
+.video{
+    text-align: center;
+}
+.texto{
+    text-align: center;
+    font-size: medium;
+}
 header{
 background-color: #121312;
 padding: 25px 0;
@@ -26,7 +46,6 @@ text-decoration: none;
     height: 140px;
     margin: 0 auto;
 }
-
 h1{
     font-size: 50px;
 }
@@ -191,3 +210,4 @@ form label, form p{
             border-color: #b02525;
         }
     }
+    
